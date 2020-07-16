@@ -8,8 +8,7 @@ end
 
 def read_from_hash(hash, key)
   # return the correct value using the hash and key parameters
-  a = hash
-  a[key]
+  hash[key]
 
 
 end
