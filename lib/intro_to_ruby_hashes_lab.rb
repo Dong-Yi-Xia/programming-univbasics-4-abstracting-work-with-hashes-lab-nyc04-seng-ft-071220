@@ -1,7 +1,8 @@
 def my_hash_creator(key, value)
   # return a hash that includes the key and value parameters passed into this method
-  Hash.new{key => value}
-
+  a = Hash.new{}
+  a[key] = value
+  a
 end
 
 def read_from_hash(hash, key)
